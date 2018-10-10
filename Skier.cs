@@ -88,8 +88,7 @@ namespace WindowsFormsApp2
                         break;
 
                     case 3:
-                        if (sem2.CurrentCount == 0) Go31();
-                        else if (choice == 0) Go32();
+                        if (choice == 0 && sem2.CurrentCount != 0) Go32();
                         else Go31();
                         break;
 

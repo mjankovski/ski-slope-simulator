@@ -104,7 +104,7 @@ namespace WindowsFormsApp2
             n8.SetSkierPosition(Skier.B0x[n8.slotNumber], Skier.B0y[n8.slotNumber]);
 
             timer1.Start();
-            timer1.Interval = 90;
+            timer1.Interval = 100;
         }
 
         private Point UpdatePos(Skier n)
